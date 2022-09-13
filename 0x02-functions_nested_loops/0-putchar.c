@@ -12,7 +12,7 @@ int main(void)
 	int n;
 	char alph[] = "_putchar";
 
-	for (n = 0; n <= 8; n++)
+	for (n = 0; n <= 7; n++)
 		_putchar(alph[n]);
 
 	_putchar('\n');
