@@ -2,6 +2,9 @@
 #include <stdio.h>
 
 /**
+ * print_to_98 - function to print to 98
+ * @n: integer
+ * return: n - 98
  */
 
 void print_to_98(int n)
