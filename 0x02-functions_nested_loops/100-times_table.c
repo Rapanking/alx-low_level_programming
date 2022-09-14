@@ -1,14 +1,18 @@
 #include "main.h"
 
 /**
+ * print_times_table - function
+ * @n: integer
+ * return: result
+ *
  */
 
 void print_times_table(int n)
 {
 	int num, mul, res;
+
 	if (n < 0 || n > 15)
 		return;
-	
 	for (num = 0; num <= n; num++)
 	{
 		for (mul = 0; mul <= n; mul++)
@@ -34,7 +38,7 @@ void print_times_table(int n)
 				_putchar('0' + (res - 100) / 10);
 				_putchar('0' + res % 10);
 			}
-			if (mul < n) 
+			if (mul < n)
 			{
 				_putchar(',');
 				_putchar(' ');
